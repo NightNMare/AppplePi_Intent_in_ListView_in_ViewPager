@@ -35,11 +35,9 @@ public class ListAdapter extends BaseAdapter {
     public View getView(int position, View convertView, ViewGroup parent) {
         View v= LayoutInflater.from(parent.getContext()).inflate(R.layout.listitem,null);
 
-        TextView title =(TextView) v.findViewById(R.id.title);
-        TextView content=(TextView) v.findViewById(R.id.content);
+        TextView title = v.findViewById(R.id.title);
 
         title.setText(items.get(position).title);
-        content.setText(items.get(position).content);
 
         return v;
     }

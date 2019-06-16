@@ -11,12 +11,6 @@
         android:text="제목"
         android:textSize="30sp"
         android:id="@+id/title"/>
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="내용"
-        android:id="@+id/content"
-        android:textSize="20sp"/>
 
 
 </LinearLayout>
